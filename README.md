@@ -35,9 +35,11 @@ Evaluated by our automated validation protocol, this method achieves an average 
 
 ## 📦 The Dataset
 
-* **Scope**: 1,968 10-K filings submitted by S&P 500 constituents between 2021 and 2024.
-* **Format**: JSON Lines (`.jsonl`), where each line is a JSON object representing a single corporate filing.
-* **Structure**: Each JSON object contains the company CIK, filing date, and a dictionary of all standard section texts.
+- **Scope**: 1,968 10-K filings submitted by S&P 500 constituents between 2021 and 2024.  
+- **Format**: JSON file (`.json`) containing a list of extracted sections from each filing. Each object in the list represents a specific item (e.g., `item_1`, `item_1a`, `item_7`), along with its corresponding text content.  
+- **Structure**: Each JSON object contains two fields:
+  - `item_key`: the standard SEC item identifier (e.g., `"item_1"`, `"item_1a"`, `item_7`)
+  - `text`: the full extracted text of that section
     ```json
     [
       {
@@ -71,8 +73,8 @@ To demonstrate the practical utility of our dataset, we conducted a case study t
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your_username/your_repository_name.git](https://github.com/your_username/your_repository_name.git)
-    cd your_repository_name
+    git clone [https://https://github.com/johnny-xiao-li/Flex_10K.git](https://https://github.com/johnny-xiao-li/Flex_10K.git)
+    cd Flex_10K
     ```
 
 2.  **Install dependencies**:
@@ -90,10 +92,10 @@ To demonstrate the practical utility of our dataset, we conducted a case study t
 If you use our code or dataset in your research, please cite our paper:
 
 ```bibtex
-@article{your_lastname_2025_decoding,
-  title={Decoding Modern EDGAR: An Extensible SEC 10-K Corpus for the Post-iXBRL Era},
-  author={Your Name and Co-authors},
-  journal={Journal or Conference Name},
+@article{xiao_2025_flex10k,
+  title={From Rules to Flexibility: A Resource and Method for SEC Item Extraction in Post-2021 10-K Filings},
+  author={Xiao Li, Changhong Jin, Ruihai Dong},
+  journal={XXXX},
   year={2025},
   volume={XX},
   pages={XX--XX}
@@ -106,13 +108,14 @@ If you use our code or dataset in your research, please cite our paper:
 
 ```
 .
-├── parser/                 # Scripts for text extraction
+├── parser/                     # Scripts for text extraction
 │   └── extract.py
-├── dataset/                # The extracted dataset
-│   └── 10k_2021_2024.jsonl
-├── case_study/             # Code for reproducing the case study
+├── dataset/                    # The extracted dataset
+│   └── 10k_sp500_{2021-2024}   # Years\
+│       └── {cik}_{date}.json   # Item-extracted 10-K reports
+├── case_study/                 # Code for reproducing the case study
 │   └── tutorial.ipynb
-├── benchmark_results/      # Tables with experimental results
+├── benchmark_results/          # Tables with experimental results
 │   └── volatility_mse.csv
-├── requirements.txt        # Python dependencies
-└── README.md               # This README file
+├── requirements.txt            # Python dependencies
+└── README.md                   # This README file
