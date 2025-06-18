@@ -1,0 +1,37 @@
+# HTML parsing and web scraping
+beautifulsoup4==4.12.3
+lxml==5.2.2
+html5lib==1.1
+requests==2.31.0
+
+# Text processing and fuzzy matching
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.1
+regex==2023.12.25
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+tqdm==4.66.2
+
+# Machine learning and NLP
+scikit-learn==1.4.2
+xgboost==2.0.3
+transformers==4.41.1
+sentence-transformers==2.6.1
+tokenizers==0.19.1
+torch==2.3.0
+datasets==2.19.0
+
+# Visualization
+matplotlib==3.9.0
+
+# Vector storage (optional)
+chromadb==0.4.24
+faiss-cpu==1.8.0
+
+# Financial market data
+yfinance==0.2.37
+
+# LLM support (for local deployment/inference)
+accelerate==0.30.1
