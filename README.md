@@ -45,10 +45,13 @@ Evaluated by our automated validation protocol, this method achieves an average 
         "text": "Business description text..."
       },
       {
-        "item_key": "item_1a"
+        "item_key": "item_1a",
         "text": "Risk factors text..."
       }
-      ...
+      {
+        "item_key": "...",
+        "text": "..."
+      } 
     ]
     ```
 
