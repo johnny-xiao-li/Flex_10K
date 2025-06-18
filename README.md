@@ -49,7 +49,6 @@ Evaluated by our automated validation protocol, this method achieves an average 
         "text": "Risk factors text..."
       }
       ...
-      }
     [
     ```
 
