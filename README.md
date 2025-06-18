@@ -8,7 +8,7 @@ This project addresses the challenge of accurately extracting section-level text
 
 To bridge this gap, we have developed a novel segmentation framework that combines **fuzzy matching** with **structural heuristics**. This framework robustly handles diverse report layouts, enabling flexible and reliable extraction of textual content from sections like Item 1A (Risk Factors) and Item 7 (MD&A).
 
-This repository contains all the code, data, and tutorials associated with our paper, **[Your Paper Title Here]**. We hope this work provides critical infrastructure for researchers in the field of Financial Natural Language Processing (NLP).
+This repository contains all the code, data, and tutorials associated with our paper, **From Rules to Flexibility: A Resource and Method for SEC Item Extraction in Post-2021 10-K Filings**. We hope this work provides critical infrastructure for researchers in the field of Financial Natural Language Processing (NLP).
 
 ---
 
@@ -39,16 +39,18 @@ Evaluated by our automated validation protocol, this method achieves an average 
 * **Format**: JSON Lines (`.jsonl`), where each line is a JSON object representing a single corporate filing.
 * **Structure**: Each JSON object contains the company CIK, filing date, and a dictionary of all standard section texts.
     ```json
-    {
-      "cik": "12345",
-      "filing_date": "2023-02-28",
-      "items": {
-        "item_1": "Business description text...",
-        "item_1a": "Risk factors text...",
-        "item_7": "MD&A text...",
-        "...": "..."
+    [
+      {
+        "item_key": "item_1",
+        "text": "Business description text..."
+      },
+      {
+        "item_key": "item_1a"
+        "text": ""Risk factors text..."
       }
-    }
+      ......
+      }
+    [
     ```
 
 ---
