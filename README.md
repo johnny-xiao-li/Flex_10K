@@ -46,7 +46,7 @@ Evaluated by our automated validation protocol, this method achieves an average 
       },
       {
         "item_key": "item_1a"
-        "text": ""Risk factors text..."
+        "text": "Risk factors text..."
       }
       ......
       }
