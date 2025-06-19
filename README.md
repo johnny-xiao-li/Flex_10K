@@ -110,14 +110,20 @@ If you use our code or dataset in your research, please cite our paper:
 .
 ├── parser/                     # Scripts for text extraction
 │   └── extract.py
+│
 ├── dataset/                    # The extracted dataset
 │   └── 10k_sp500_{2021-2024}   # Years\
 │       └── {cik}_{date}.json   # Item-extracted 10-K reports
+│
 ├── case_study/                 # Code for reproducing the case study
 │   └── tutorial.ipynb
+│
 ├── benchmark_results/          # Tables with experimental results
 │   └── volatility_mse.csv
+│
 ├── requirements.txt            # Python dependencies
+│
 ├── sample_extract_result/
-├   └── sample_extract.html     # Sample extract result by using highlight in HTML
+│   └── sample_extract.html     # Sample extract result by using highlight in HTML
+│
 └── README.md                   # This README file
