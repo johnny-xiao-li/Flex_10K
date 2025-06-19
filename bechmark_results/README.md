@@ -60,7 +60,7 @@ The table below summarizes the annually-averaged MSE for each model from 2006 to
 ---
 </div>
 <figure align="center">
-  <img src="./figures/mse_yearly_trend.pdf" width="300">
+  <img src="./figures/mse_yearly_trend.png" width="900">
   <figcaption><em>Figure 1. Yearly Trend (MSE)</em></figcaption>
 </figure>
 
