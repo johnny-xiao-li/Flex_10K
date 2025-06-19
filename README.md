@@ -83,7 +83,7 @@ To demonstrate the practical utility of our dataset, we conducted a case study t
     ```
 
 3.  **Run the case study**:
-    Open and run the Jupyter Notebook in `/case_study/tutorial.ipynb`.
+    Open and run the Jupyter Notebook in `/tutorials/tutorial_{name}.ipynb`.
 
 ---
 
@@ -115,7 +115,7 @@ If you use our code or dataset in your research, please cite our paper:
 │   └── 10k_sp500_{2021-2024}   # Years\
 │       └── {cik}_{date}.json   # Item-extracted 10-K reports
 │
-├── case_study/                 # Code for reproducing the case study
+├── tutorials/                 # Code for reproducing the case study
 │   └── tutorial.ipynb
 │
 ├── benchmark_results/          # Tables with experimental results
