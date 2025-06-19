@@ -1,30 +1,25 @@
-# HTML parsing and web scraping
-beautifulsoup4==4.12.3
-lxml==5.2.2
-html5lib==1.1
-requests==2.31.0
+# Core scientific computing
+numpy==1.24.4             # Numerical operations
+pandas==2.2.2             # Data structures and analysis tools
 
-# Text processing and fuzzy matching
-fuzzywuzzy==0.18.0
-python-Levenshtein==0.25.1
-regex==2023.12.25
+# Web parsing and encoding detection
+beautifulsoup4==4.12.3    # HTML and XML parsing
+chardet==5.2.0            # Character encoding detection
 
-# Data handling
-pandas==2.2.2
-numpy==1.26.4
-tqdm==4.66.2
+# Fuzzy text matching
+rapidfuzz==3.6.2          # Fast fuzzy string matching (Levenshtein-like)
 
-# Machine learning and NLP
-scikit-learn==1.4.2
-xgboost==2.0.3
-transformers==4.41.1
-sentence-transformers==2.6.1
-tokenizers==0.19.1
-torch==2.3.0
-datasets==2.19.0
+# Machine learning and feature engineering
+scikit-learn==1.4.2       # ML tools, TF-IDF, model evaluation
+xgboost==2.0.3            # Gradient boosting regressor
 
-# Visualization
-matplotlib==3.9.0
+# Financial data API
+yfinance==0.2.37          # Yahoo Finance data downloader
 
-# Financial market data
-yfinance==0.2.37
+# Utility tools
+tqdm==4.66.4              # Progress bar for loops
+glob2==0.7                # Enhanced file pattern matching (optional)
+
+# Notes:
+# - All libraries are version-locked for stability and reproducibility.
+# - Standard libraries like os,
