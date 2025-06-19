@@ -1,7 +1,3 @@
-好的，这是结合了所有建议的完整Markdown文档，包含了两个关键公式和对结果的简要观察：
-
----
-
 # **Predicting Annualized Volatility from Form 10-K Item 1a: Model Performance**
 
 ## **Overview**
