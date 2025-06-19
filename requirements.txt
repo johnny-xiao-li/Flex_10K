@@ -26,12 +26,5 @@ datasets==2.19.0
 # Visualization
 matplotlib==3.9.0
 
-# Vector storage (optional)
-chromadb==0.4.24
-faiss-cpu==1.8.0
-
 # Financial market data
 yfinance==0.2.37
-
-# LLM support (for local deployment/inference)
-accelerate==0.30.1
