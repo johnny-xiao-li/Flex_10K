@@ -59,8 +59,10 @@ The table below summarizes the annually-averaged MSE for each model from 2006 to
 | 2024 | 0.0142 | 0.0185 | 0.0188 | 0.0224 |
 ---
 </div>
-
-![Yearly Trend: MSE][https://github.com/johnny-xiao-li/Flex_10K/blob/main/bechmark_results/figures/mse_yearly_trend.pdf]
+<figure align="center">
+  <img src="./figures/mse_yearly_trend.pdf" width="300">
+  <figcaption><em>Figure 1. Yearly Trend (MSE)</em></figcaption>
+</figure>
 
 ## **Key Observations**
 
