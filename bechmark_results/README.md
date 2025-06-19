@@ -60,7 +60,7 @@ The table below summarizes the annually-averaged MSE for each model from 2006 to
 ---
 </div>
 
-![Yearly Trend: MSE][./figures/mse_yearly_trend.pdf]
+![Yearly Trend: MSE][https://github.com/johnny-xiao-li/Flex_10K/blob/main/bechmark_results/figures/mse_yearly_trend.pdf]
 
 ## **Key Observations**
 
