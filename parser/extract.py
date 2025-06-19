@@ -190,7 +190,7 @@ def eval_item_extract(max_scores):
     # First, sort the found items according to the standard order defined in `target_items`.
     sorted_items = sorted(max_scores.values(), key=lambda v: list(target_items.keys()).index(v['item_key']))
     
-    # Check if the document indices of the sorted items are monotonically increasing.
+    # 3. Check if the document indices of the sorted items are monotonically increasing.
     is_in_order = all(sorted_items[i]["index"] < sorted_items[i+1]["index"] for i in range(len(sorted_items)-1))
     if not is_in_order:
         raise ValueError("❌ Extracted ITEMs are not in the correct document order.")

@@ -34,6 +34,8 @@ The values presented in the table below are the annually-averaged MSEs, calculat
 
 The table below summarizes the annually-averaged MSE for each model from 2006 to 2024.
 
+<div align="center">
+
 | Year | XGBoost | FinBERT | RoBERTa | Longformer |
 | :--- | :------ | :------ | :------ | :--------- |
 | 2006 | 0.0117 | 0.0163 | 0.0132 | 0.0131 |
@@ -55,8 +57,10 @@ The table below summarizes the annually-averaged MSE for each model from 2006 to
 | 2022 | 0.0430 | 0.0600 | 0.0506 | 0.0547 |
 | 2023 | 0.0262 | 0.0255 | 0.0188 | 0.0165 |
 | 2024 | 0.0142 | 0.0185 | 0.0188 | 0.0224 |
-
 ---
+</div>
+
+
 
 ## **Key Observations**
 

@@ -118,4 +118,6 @@ If you use our code or dataset in your research, please cite our paper:
 ├── benchmark_results/          # Tables with experimental results
 │   └── volatility_mse.csv
 ├── requirements.txt            # Python dependencies
+├── sample_extract_result/
+├   └── sample_extract.html     # Sample extract result by using highlight in HTML
 └── README.md                   # This README file
