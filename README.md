@@ -92,13 +92,12 @@ To demonstrate the practical utility of our dataset, we conducted a case study t
 If you use our code or dataset in your research, please cite our paper:
 
 ```bibtex
-@article{xiao_2025_flex10k,
+@inproceedings{li2025rules,
   title={From Rules to Flexibility: A Resource and Method for SEC Item Extraction in Post-2021 10-K Filings},
-  author={Xiao Li, Changhong Jin, Ruihai Dong},
-  journal={XXXX},
-  year={2025},
-  volume={XX},
-  pages={XX--XX}
+  author={Li, Xiao and Jin, Changhong and Dong, Ruihai},
+  booktitle={Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+  pages={6451--6455},
+  year={2025}
 }
 ```
 
