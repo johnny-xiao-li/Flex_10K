@@ -124,5 +124,18 @@ If you use our code or dataset in your research, please cite our paper:
 │
 ├── sample_extract_result/
 │   └── sample_extract.html     # Sample extract result by using highlight in HTML
+│ 
+├── poster/                     # Poster for CIKM
+│   └── Flex_10K_Poster.png
 │
 └── README.md                   # This README file
+
+```
+
+---
+
+## Poster
+
+- PDF: [Flex_10K Poster](poster/Flex_10K_Poster.png)
+
+![Poster preview](poster/Flex_10K_Poster.png)
