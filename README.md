@@ -12,6 +12,18 @@ This repository contains all the code, data, and tutorials associated with our p
 
 ---
 
+## 🪧 Poster (One-page Overview)
+
+Want a quick visual summary of the dataset and the extraction pipeline?
+
+- 📄 **PDF (recommended):** [Flex_10K Poster](poster/Flex_10K_Poster.pdf)  
+- 🖼️ **Preview image:** (shown below)
+
+![Poster preview](poster/Flex_10K_Poster.png)
+
+---
+
+
 ## ✨ What's in this Repository?
 
 * **🐍 Python Parser (`/parser`)**: The complete Python script to extract all standard sections from raw 10-K HTML files.
@@ -126,6 +138,7 @@ If you use our code or dataset in your research, please cite our paper:
 │   └── sample_extract.html     # Sample extract result by using highlight in HTML
 │ 
 ├── poster/                     # Poster for CIKM
+│   └── Flex_10K_Poster.pdf
 │   └── Flex_10K_Poster.png
 │
 └── README.md                   # This README file
