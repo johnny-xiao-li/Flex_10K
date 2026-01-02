@@ -135,7 +135,7 @@ If you use our code or dataset in your research, please cite our paper:
 
 ---
 
-## 🪧 Poster (One-page Overview)
+## 🪧 Poster
 
 Want a quick visual summary of the dataset and the extraction pipeline?
 
